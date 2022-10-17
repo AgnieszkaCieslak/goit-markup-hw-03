@@ -66,12 +66,12 @@ ul {
   flex-grow: 1;
 }
 .list-nav-index {
-  padding-left: 93px;
-  width: 347px;
+  margin-left: 93px;
+  width: 254px;
 }
 .list-adr-index {
   padding-right: 21px;
-  padding-left: 371px;
+  margin-left: 371px;
   width: 295px;
 }
 .links-menu {
@@ -109,10 +109,12 @@ ul {
 
 .header-index {
   padding-block: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--background-color-dark-blue);
 }
 .header-text-index {
-  margin-inline: auto;
   width: 696px;
   font-weight: 900;
   font-size: 44px;
@@ -123,11 +125,11 @@ ul {
   text-align: center;
 }
 .button-index {
+  box-sizing: content-box;
   margin-top: 30px;
-  margin-inline: auto;
   padding-block: 10px;
   padding-inline: 41px;
-  display: flex;
+  width: 200px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -167,7 +169,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .box-lorem-index {
-  padding-inline: 15px;
+  margin-inline: 15px;
 }
 .lorem-text-index {
   font-weight: 700;
@@ -175,7 +177,7 @@ ul {
   text-transform: uppercase;
 }
 .description-lorem-index {
-  padding-top: 10px;
+  margin-top: 10px;
   line-height: 1.71;
   color: var(--color-dark-grey);
 }
@@ -190,7 +192,8 @@ ul {
   text-align: center;
 }
 .image-list-index {
-  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 94px;
   padding-inline: 15px;
   display: flex;
   justify-content: space-between;
@@ -209,7 +212,8 @@ ul {
   line-height: 1.16;
 }
 .list-team-index {
-  padding: 50px 215px 0;
+  padding-inline: 215px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   font-size: 16px;
@@ -223,11 +227,11 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 .our-team-description {
-  padding-top: 30px;
+  margin-top: 30px;
   font-weight: 500;
 }
 .our-team-text {
-  padding-top: 10px;
+  margin-top: 10px;
   padding-bottom: 30px;
   color: var(--color-dark-grey);
 }
@@ -242,7 +246,7 @@ ul {
   background-color: var(--background-color-dark-blue);
 }
 .logo-footer {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -259,15 +263,15 @@ ul {
   text-decoration: none;
 }
 .adress-footer {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .links-footer {
-  padding-top: 9px;
+  margin-top: 9px;
 }
 /* PORTFOLIO BUTTONS */
 
 .list-button-portfolio {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -302,10 +306,10 @@ ul {
 }
 .picture-portfolio {
   margin: 0 0 0 0;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .picture-header-portfolio {
-  padding-top: 20px;
+  margin-top: 20px;
   padding-left: 24px;
   font-weight: 700;
   font-size: 18px;
@@ -313,7 +317,7 @@ ul {
   letter-spacing: 0.06em;
 }
 .picture-description-portfolio {
-  padding-top: 4px;
+  margin-top: 4px;
   padding-bottom: 20px;
   padding-left: 24px;
   font-size: 16px;
