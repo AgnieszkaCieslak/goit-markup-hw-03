@@ -19,14 +19,14 @@
     <title>Studio</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- !!!!!!!!!! WebStudio !!!!!!!!!!!! -->
-      <section class="menu-index container header">
+      <section class="menu-index container">
         <a class="logo" href="index.html"
           >Web<span class="logo-black">Studio</span></a
         >
         <!-- !!!!!!!!!!!!!!!   A   P   K   !!!!!!!!!!!! -->
-        <nav>
+        <nav class="nav-margin">
           <ul class="list-nav-index">
             <li><a class="links-menu blue" href="#">Agencja</a></li>
             <li>
@@ -36,6 +36,7 @@
           </ul>
         </nav>
         <!-- !!!!!!!!!!!!!!!!!    M    T    !!!!!!!!!!!!!! -->
+        <div class="menu-margin">
         <ul class="list-adr-index">
           <li>
             <a class="links-menu dark-grey" href="mailto:info@devstudio.com"
@@ -47,7 +48,7 @@
               >+48 111 111 111</a
             >
           </li>
-        </ul>
+        </ul></div>
       </section>
     </header>
     <main>
@@ -59,9 +60,9 @@
         <button class="button-index pointer" type="button">Zamów usługe</button>
       </section>
       <!-- !!!!!!!!!!!!!!!!!!     LOREM IPSUM   !!!!!!!!!!!!!!! -->
-      <section>
-        <ul class="list-lorem-index container section">
-          <li class="box-lorem-index">
+      <section class="container section">
+        <ul class="list-lorem-index">
+          <li class="box-lorem-index-left">
             <h3 class="lorem-text-index">LOREM IPSUM</h3>
             <p class="description-lorem-index">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -82,7 +83,7 @@
               velarcu sem. Sed non&nbsp;sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="box-lorem-index">
+          <li class="box-lorem-index-right">
             <h3 class="lorem-text-index">LOREM IPSUM</h3>
             <p class="description-lorem-index">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -121,7 +122,7 @@
                 alt="produckt-designer"
                 width="270"
               />
-              <figcaption>
+              <figcaption class="description-margin">
                 <h4 class="our-team-description">John Doe</h4>
                 <p class="our-team-text">Produckt Designer</p>
               </figcaption>
@@ -134,10 +135,10 @@
                 alt="frontend-developer"
                 width="270"
               />
-              <figcaption>
+              <figcaption class="description-margin">
                 <h4 class="our-team-description">John Doe</h4>
                 <p class="our-team-text">Frontend Developer</p>
-              </figcaption>
+              </figcaption class="description-margin">
             </figure>
           </li>
           <li>
@@ -147,7 +148,7 @@
                 alt="marketing"
                 width="270"
               />
-              <figcaption>
+              <figcaption class="description-margin">
                 <h4 class="our-team-description">John Doe</h4>
                 <p class="our-team-text">Marketing</p>
               </figcaption>
@@ -160,7 +161,7 @@
                 alt="ui-designer"
                 width="270"
               />
-              <figcaption>
+              <figcaption class="description-margin">
                 <h4 class="our-team-description">John Doe</h4>
                 <p class="our-team-text">UIDesigner</p>
               </figcaption>
@@ -180,16 +181,17 @@
               m. Warszawa, Aleje Jerozolimskie 21
             </p>
           </li>
-          <li>
-            <a class="links-footer light-grey" href="mailto:info@example.com"
+            <div class="footer-margin">
+              <li>
+            <a class="links-footer light-grey " href="mailto:info@example.com"
               >info@example.com</a
             >
           </li>
-          <li>
+          <li  class="footer-margin">
             <a class="links-footer light-grey" href="tel:+48111111111"
               >+48 111 111 111</a
             >
-          </li>
+          </li></div>
         </ul>
       </address>
     </footer>
